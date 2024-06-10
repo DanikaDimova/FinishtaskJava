@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lightbox.css">
+  <script src = "script.js"></script>
+</head>
+<body>
+  <div id = "image">
+    Black & White
+  </div>
+  <div class = "preview1">
+      <a href=image/photo1.jpg data-lightbox="example-set" data-title="Photo1"> 
+        <img class = "preview" alt = "Where there is love there is life" src="image/photo1.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "focusapp(this)" onblur="blurapp()" tabindex="0">
+      </a> 
+      <a href=image/photo2.jpg data-lightbox="example-set" data-title="Photo2">
+        <img class = "preview" alt = "Try it again. Fail again. Fail better" src="image/photo2.jpg"  onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "focusapp(this)" onblur="blurapp()" tabindex="0">
+      </a>
+      <a href=image/photo3.jpg data-lightbox="example-set" data-title="Photo3">
+        <img class = "preview" src="image/photo3.jpg" alt = " You only live once" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "focusapp(this)" onblur="blurapp()" tabindex="0">
+      </a>
+      <a href=image/photo4.jpg data-lightbox="example-set" data-title="Photo4">
+        <img class = "preview" src="image/photo4.jpg" alt= "Love as long as you live" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "focusapp(this)" onblur="blurapp()" tabindex="0">
+      </a>
+      <a href=image/photo5.jpg data-lightbox="example-set" data-title="Photo5">
+        <img class = "preview" src="image/photo5.jpg" alt="Turn your wounds into wisdom" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "focusapp(this)" onblur="blurapp()" tabindex="0">
+      </a>
+      <a href=image/photo6.jpg data-lightbox="example-set" data-title="Photo6">
+        <img class = "preview" src="image/photo6.jpg" alt=" Enthusiasm moves the world" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "focusapp(this)" onblur="blurapp()" tabindex="0" >
+      </a>
+  </div>  
+  <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

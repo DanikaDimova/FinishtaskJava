@@ -1,0 +1,30 @@
+body{
+  margin: 2%;
+  background-color: #C0C0C0;
+}
+#image{
+  line-height:650px;
+  width: 475px;
+  height: 550px;
+  border:5px solid black;
+  margin:0 auto;
+  background-color: #C0C0C0;
+  background-image: url('');
+  background-repeat: no-repeat;
+  color:#4dd2ff;
+  text-align: center;
+  background-size: 100%;
+  margin-bottom:10px;
+  font-size: 150%;
+}
+.preview{
+  width:30%!important;
+  margin-left:20px!important;
+  margin: 0 auto!important;
+}
+img:hover{
+  width:30%;
+  opacity: 1;
+  border: 2px solid #C0C0C0;
+}
+
